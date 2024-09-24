@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 150px;
+  font-size: 20px;
+  position: absolute;
+  transform: translateX(100vw);
+  transition: transform 1s ease;
+}
